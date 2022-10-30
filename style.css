@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(pic/Var\ 3.png);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-attachment: fixed; */
+  /* background-color: rgb(26, 26, 26); */
+  position: relative;
+  width: auto;
+  height: 800vh;
+}
+
+.logo {
+  position: absolute;
+  left: 4.79%;
+  right: 67.13%;
+  top: 6.98%;
+  bottom: 0.98%;
+  cursor: pointer;
+  width: 150px;
+}
+
+.fram {
+  position: absolute;
+  right: 10%;
+  top: 7%;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.fram:hover {
+  transform: scale(1.2);
+}
+
+.text {
+  position: absolute;
+  top: 37%;
+  left: 75px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px 6px 28px;
+  gap: 16px;
+  border: none;
+  width: 547px;
+  height: 60px;
+  /* width: 450px; */
+  /* Neutral 800 */
+  position: absolute;
+  background: #262626;
+  border-radius: 56px;
+  top: 88%;
+  left: 88px;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.submit {
+  position: absolute;
+  top: 615px;
+  left: 410px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+}
